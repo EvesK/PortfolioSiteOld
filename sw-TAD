@@ -1,0 +1,65 @@
+<html>
+<head>
+  <title>Technology, Accessibility, and Design</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap">
+  <script src = 'javascript.js'></script>
+</head>
+<nav>
+  <a class='home nav-left' href='index.html' title = 'home'>Evelyn Kessler</a>
+  <div class = 'space'></div>
+  <a class ='skills nav-right active' href ='selected-work.html'>Selected Work</a>
+  <a class='projects nav-right' href='skills.html'>Skills</a>
+  <a class='contact nav-right' href='about.html'>About Me</a>
+</nav>
+
+<main class = 'sw-main'>
+  <div class = 'breadcrumbs'>
+    <a href = 'selected-work.html'>Selected Work</a>
+    <img src = 'images/breadcrumb-arrow.svg' height = 8px>
+    <span>Technology, Accessiblity, and Design</span>
+  </div>
+
+  <h1 class = 'sw-h1'><span class = 'half-highlight'>Technology, Accessiblity, and Design</span></h1>
+
+  <p class = 'text-justify'>I have struggled for years to find medical tracking apps that work for me. As I investigated all of the options, I first began to notice the assumptions embedded in these types of apps. The menstrual cycle tracking app that assumes the user can become pregnant, or the healthy eating app that can’t imagine someone whose goal isn’t to lose weight. Then I noticed how many of these apps I was using for a single aspect of my health. Every day I went from a medication tracking app to keep track of dosages to a timer app for reminders (the ones from the medication app didn’t work for me) and a notes app to write down side effects. Not to mention searching the calendar app to remember the date of my last doctor’s appointment or digging into my email history to find my last round of test results every few months. I quickly learned I was not alone as I heard story after story of tracking app struggles, everything from a non-binary individual who had to delete years of history over the intense dysphoria their menstrual cycle tracking app caused to an individual with chronic pain who had to design a massive spreadsheet to track symptoms with the specificity they needed.</p>
+
+  <p class = 'text-justify'>My goal is to actively minimize assumptions and allow the user to fill in this knowledge instead. One of the biggest assumptions I aim to remove in designing my app is the idea that any aspect of health exists individually. Instead, I consider the users health holistically, providing a space for users to make connections and see a more complete picture.</p>
+
+  <p class = 'text-justify'>Having conducted user interviews and paper prototyping co-designs, the app is currently in a medium-fidelity prototyping space. In this space, I am working on the Figma prototype and conducting co-designs and tests with users.</p>
+
+  <div class = 'gallery'>
+    <div class = 'hoverwrap gallery-div'>
+      <img class = 'gallery-image' src = 'images/Track6-1.jpg' alt = 'Two screens. First screen shows a calendar. Some dates have a colored bar at the top of the date square. Second screen has lots of entry fields. Field at the top says 1 slash 18 slash 2022. Next field is a gradient from light red to bright red with a slider line. Next field is a gradient from light blue to bright blue with a slider line. Next there are three buttons. Next field is a notes field. Last is a submit button. At the bottom of both screens are three buttons; a calendar icon, a plus icon, and a bar graph icon.'>
+      <div class = 'hovercap'>Early Prototype Screens</div>
+    </div>
+
+
+    <div class = 'hoverwrap gallery-div'>
+      <img class = 'gallery-image' src = 'images/Track5-1.jpg' alt = 'Notebook with drawings of screens and text. Each drawing displays a different way to display data history. For example, one drawing has a horizontal line with notes marked on the timeline. Another is a circle with dots around the circle. The text reads; scroll back and forward in time (circular motion).'>
+      <div class = 'hovercap'>Idea Dump: How to display data history?</div>
+    </div>
+
+    <div class = 'hoverwrap gallery-div'>
+      <img class = 'gallery-image' src = 'images/Track4.png' alt = 'One screen and four pop-ups. Screen has a number of fields, including title, color, and input. First pop up shows a square with an icon in and the label spotting. Underneath the preview is a text field with the text spotting entered, a field with icons to pic, and a bar that goes from S to XL to display the size.Another pop up has slider bar with text on either side. Below are empty left text and right text fields and a text size slider from S to XL set to M. There is also a pop-up for dropdown and another one with the square and icon.'>
+      <div class = 'hovercap'>The main customization interface with some of the associated pop-up windows.</div>
+    </div>
+
+    <div class = 'hoverwrap gallery-div'>
+      <img class = 'gallery-image' src = 'images/Track1.png' alt = 'Phone screens grouped together and slanted.'>
+      <div class = 'hovercap'>A variety of screens from the current prototype</div>
+    </div>
+  </div>
+
+  <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FEAh5UnsoZUOnVaGygHgvKL%2FMark-5%3Fpage-id%3D109%253A3580%26node-id%3D114%253A4556%26viewport%3D281%252C-326%252C0.38%26scaling%3Dscale-down%26starting-point-node-id%3D114%253A4556" allowfullscreen></iframe>
+
+  <br>
+</main>
+
+<footer>
+  <span class = 'footer-links'><a href = "mailto: mkessler@olin.edu">mkessler@olin.edu</a>|<a href = "./images/Resume-EvelynKessler.pdf" download="Resume-EvelynKessler">Resume</a>|<a href = 'https://www.linkedin.com/in/evelynkessler/'>LinkedIn</a></span>
+</footer>
+
+</body>
+
+</html>
